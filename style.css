@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:6.0rem 2.3rem 6.6rem ;
+    background: #ece9fd;
+    color: black;
+    
+}
+main{
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+:root{
+    font-size: 62.4%;
+}
+ul {
+    list-style: none;
+}
+h1{
+    font-weight: 600;
+    list-style: 6.2rem;
+    font-family: 'Epilogue', sans-serif;
+}
+main h3{
+    color: #7158ef;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    line-height: 3.2rem;
+    margin-bottom: 1.7rem ;
+} 
+h1+p{
+    color: rgba(10, 0, 57, 0.64);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-family:'Epilogue' ;
+    margin-bottom: 1.2rem;
+}
+ul li span{
+    color: #7158ef;
+    font-weight: 600;
+    line-height: 4.4rem;
+    font-size: 4.2rem;
+    list-style: 6.2rem;
+    font-family: 'Epilogue', sans-serif;
+    letter-spacing: -2px;
+}
+ul li {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #7158ef;
+    width: 25.7rem;
+    display: flex;
+    gap: 3.8rem;
+    
+}
+
+@media(min-width:700px){
+    body{
+        padding-top: 8rem;
+    }
+    main{
+        max-width: 1020px;
+        display: flex;
+        gap: 10rem;
+    }
+    main > div{
+        max-width: 484px;
+    }
+    ul li{
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+        margin-top: 2rem;
+         
+    }
+    ul li +li{
+        margin-top: 1.5rem;
+    }
+}
